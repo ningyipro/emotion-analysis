@@ -82,7 +82,7 @@ public class DataProcess {
         emotionLabelMap.put("正常", 1);
         emotionLabelMap.put("开心", 2);
         emotionLabelMap.put("愤怒", 3);
-        emotionLabelMap.put("我也不知道啦", 3);
+        emotionLabelMap.put("我也不知道啦", 4);
 
         long[] emotionLabelsArray = emotions.stream()
                 .map(emotionLabelMap::get)
